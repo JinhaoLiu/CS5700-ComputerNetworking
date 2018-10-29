@@ -8,9 +8,9 @@ if __name__ == "__main__":
     sys.exit(1)
 
   md5 = hashlib.md5()
-  with open(sys.argv[1], 'rb') as f:
+  with open(sys.argv[1], 'r') as f:
     while True:
       block = f.read(1024)
       if not block: break
-      md5.update(block)
+      md5.update(str.encode(block))
   print(repr(md5.digest()))

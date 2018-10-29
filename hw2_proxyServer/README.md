@@ -1,0 +1,16 @@
+##Jinhao Liu
+
+### 1. Start the Proxy Server
+
+`$ python3 proxy.py`![Screen Shot 2018-10-15 at 10.11.21 AM](/Users/jinhao/Desktop/Screen Shot 2018-10-15 at 10.11.21 AM.png)
+
+### 2. Configure Proxy Server in Browser
+Test the proxy with website begin with http (do *not* test with webiste begin with https).
+Enter local or cloud instance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         IP, and use 8181 as port number.![Screen Shot 2018-10-15 at 12.22.02 PM](/Users/jinhao/Desktop/Screen Shot 2018-10-15 at 12.22.02 PM.png)
+
+
+
+Then use the proxy to serve your web pages, all HTTP requests will go through 
+the proxy server, the console shows like as below.
+
+![Screen Shot 2018-10-15 at 12.20.17 PM](/Users/jinhao/Desktop/Screen Shot 2018-10-15 at 12.20.17 PM.png)
